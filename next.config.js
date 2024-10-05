@@ -1,4 +1,5 @@
 const path = require("path");
+require("dotenv").config(); // .env ফাইল লোড করুন
 
 module.exports = {
   sassOptions: {
